@@ -1,6 +1,6 @@
 # 🪂 Far Away 💼
 
-**Far Away** is a React-based travel packing list application designed to help you organize your luggage for trips. It allows users to add items, manage quantities, and track packing progress with a fun and interactive interface.
+**Far Away** is a React-based travel packing list application designed to help you organize your luggage for trips. It allows users to add items, manage quantities, and track packing progress with a fun and interactive interface. The project is still under development to add some amazing features.
 
 ## ✨ Features
 
