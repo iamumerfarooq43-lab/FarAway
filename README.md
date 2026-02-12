@@ -1,16 +1,41 @@
-# React + Vite
+# 🪂 Far Away 💼
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Far Away** is a React-based travel packing list application designed to help you organize your luggage for trips. It allows users to add items, manage quantities, and track packing progress with a fun and interactive interface.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add Items**: Quickly add items with quantities (1-10) to your packing list.
+- **Track Progress**: Mark items as packed and view real-time statistics on your packing percentage.
+- **Sort Options**: Sort your list by:
+  - Input Order
+  - Description (Alphabetical)
+  - Packed Status
+- **List Management**: Delete individual items or clear the entire list with a confirmation prompt.
+- **Responsive Design**: Simple and clean UI.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React**: Functional components, Hooks (`useState`).
+- **Vite**: Fast development build tool.
+- **CSS**: Custom styling.
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Run the application**:
+   ```bash
+   npm run dev
+   ```
+
+## 📂 Project Structure
+
+- `App.jsx`: Main application component managing state.
+- `Logo.jsx`: Header component.
+- `Form.jsx`: Component for adding new items.
+- `PackingList.jsx`: Component displaying the list of items with sorting functionality.
+- `Item.jsx`: Individual item component.
+- `Status.jsx`: Footer component displaying packing stats.
